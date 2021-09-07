@@ -28,9 +28,9 @@ I took interest in programming about a year ago. I started my path with trying t
 6. Self-organization and time management skills;
 7. Ability to find required information using limited sources;
 8. Working under time limitations;
-9. Self-sufficiency. I can work and research on my own where it's necessary;⠀
-⠀
- **##### Skills** 
+9. Self-sufficiency. I can work and research on my own where it's necessary;  
+
+**##### Skills** 
  **I have experience working with:**⠀
  1. JS; ⠀
  2. C#;  
