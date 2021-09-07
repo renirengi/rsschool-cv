@@ -32,11 +32,11 @@ I took interest in programming about a year ago. I started my path with trying t
 ⠀
  **##### Skills** 
  **I have experience working with:**⠀
- 1. JS⠀
- 2. C#  
- 3. CSS  
- 4. HTML  
- 5. Git 
+ 1. JS; ⠀
+ 2. C#;  
+ 3. CSS;  
+ 4. HTML;  
+ 5. Git; 
   ⠀
 ⠀
 **##### Code Examples**  ⠀
@@ -56,11 +56,11 @@ Your task is to make a function that can take any non-negative integer as an arg
 ``` 
     
 ⠀
-No working experience⠀
+No working experience.⠀
 ⠀
 **##### Education** ⠀
 ⠀
 Humanities (Faculty of History). ⠀
-Courses "C Sharp Basics" (Stepik), "JS for Beginners" (Stepik) "JavaScript: Introduction and Functions", 'Introduction to JavaScript' (Codacademy).  
+Courses 'C Sharp Basics' (Stepik), 'JS for Beginners' (Stepik) 'JavaScript: Introduction and Functions', 'Introduction to JavaScript' (Codacademy).  
 ⠀
 ⠀**Level of English: A2+,** working to improve it.
