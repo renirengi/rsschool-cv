@@ -36,10 +36,9 @@ I took interest in programming about a year ago. I started my path with trying t
  2. C#;  
  3. CSS;  
  4. HTML;  
- 5. Git; 
-  ⠀
-⠀
-**##### Code Examples**  ⠀
+ 5. Git;  
+ 
+ **##### Code Examples**  
 **Task**  
 Your task is to make a function that can take any non-negative integer as an argument and return it with its digits in descending order. Essentially, rearrange the digits to create the highest possible number.
 
@@ -56,8 +55,7 @@ Your task is to make a function that can take any non-negative integer as an arg
 ``` 
     
 ⠀
-No working experience.⠀
-⠀
+No working experience.  
 **##### Education** ⠀
 ⠀
 Humanities (Faculty of History). ⠀
