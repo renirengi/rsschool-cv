@@ -1,17 +1,19 @@
 @font-face {
     font-family: ArchitectDaughter;
     src: url("./assets/fonts/ArchitectsDaughter-Regular.ttf");
-  }
+}
   
-  @font-face {
+@font-face {
      font-family: JosefinSans;
      src: url("./assets/fonts/JosefinSans-Regular.ttf");
-  }
-  @font-face {
+}
+
+@font-face {
     font-family: Signika;
     src: url("./assets/fonts/Signika-Regular.ttf");
-  }
-  :root {
+}
+
+:root {
     --dark-red: #710707;
     --font-pink: #fd9ba9;
     --font-gold: #9d8665;
@@ -20,7 +22,7 @@
     --JosefinSans: 'JosefinSans', sans-serif;
     --ArchitectDaughter: 'ArchitectDaughter', sans-serif;
     --Signika: 'Signika', sans-serif;
-  }
+}
 
 * {
     box-sizing: border-box;
