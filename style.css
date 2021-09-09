@@ -28,31 +28,33 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-   }
+}
 
-   html{
+html{
     scroll-behavior: smooth;
-   }
+}
 
-   .block{
-     padding-top: 5%;
-   }
-   body{
-       background-image: url(./assets/img/background.jpg);
-       background-size:cover;
-   } 
+.block{
+    padding-top: 5%;
+}
 
-   .wrapper{
+body{
+    background-image: url(./assets/img/background.jpg);
+    background-size:cover;
+} 
+
+.wrapper{
     padding: 5% 10% 5% 10%;
     font-family: var(--Signika);
     letter-spacing: 1%;
     word-spacing: 0.5%;
     color: black;
-    }
+}
 
-   .wrapper a:link {
+.wrapper a:link {
     color: var(--font-gold);
-   }
+}
+
    .wrapper a:visited {
     color:var(--font-gold);
    }
