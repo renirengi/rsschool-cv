@@ -55,15 +55,15 @@ body{
     color: var(--font-gold);
 }
 
-   .wrapper a:visited {
+.wrapper a:visited {
     color:var(--font-gold);
-   }
-   .wrapper a:hover {
-    color: var(--font-pink);
-   }
+}
 
+.wrapper a:hover {
+    color: var(--font-pink);
+}
    
-   .header{
+.header{
     display: flex;
     justify-content: space-between;
     padding-right: 0px;
@@ -71,20 +71,20 @@ body{
     align-items: center;
     height: 10%;
     
-    }
+}
 
-  .image-icon{
-       width: 30%;
-   }
+.image-icon{
+    width: 30%;
+}
 
-   .image-icon * {
+.image-icon * {
     vertical-align: middle;
-   }
+}
    
- .image-icon img{
+.image-icon img{
       width:70%;
       height:70%;
-  }
+}
 
   img{
     width: 50px;
