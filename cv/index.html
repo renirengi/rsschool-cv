@@ -1,0 +1,199 @@
+<!DOCTYPE HTML>
+<html lang="en">
+   <head>
+      <meta charset= "utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>СV Olga Bogdanova</title>
+      <link rel="stylesheet" href="style.css">
+      <link rel="stylesheet" href="./assets/stylesheet/styles/grayscale.min.css">
+      <link rel="preload" href="./assets/stylesheet/highlight.js" as="script">
+      <script src="./assets/stylesheet/highlight.min.js"></script>
+      <script>hljs.initHighlightingOnLoad();</script>
+      <base target="_blank">
+   </head>
+   <body>
+      <div class="wrapper">
+         <header class="header">
+            <div class="image-icon">
+               <img src="./assets/img/foto.png" alt="my foto" width="215" height="245" id="foto">
+            </div>
+            <h1>Olga Bogdanova</h1>
+            <div class="burger-menu">
+               <input id="menu-toggle" type="checkbox"/>
+               <label class="menu-btn" for="menu-toggle">
+               <span></span>
+               </label>
+               <ul class="menu-box">
+                  <li><a class="menu-item" href="#contacts">Contacts</a></li>
+                  <li><a class="menu-item" href="#language">Language</a></li>
+                  <li><a class="menu-item" href="#about-me">About me</a></li>
+                  <li><a class="menu-item" href="#education">Education</a></li>
+                  <li><a class="menu-item" href="#skills">Skills</a></li>
+                  <li><a class="menu-item" href="#video">Video</a></li>
+                  <li><a class="menu-item" href="#experience">Experience</a></li>
+                  <li><a class="menu-item" href="#code">Code Example</a></li>
+                  <li><a class="menu-item" href="#my-projects">My Projects</a></li>
+               </ul>
+            </div>
+         </header>
+         <div class="flex-container">
+            <aside class= "block aside">
+               <section>
+                  <h3 class="contacts-list" id="contacts">Contacts:</h3>
+                  <ul>
+                     <li>Address:<br>The Republic of Belarus, Minsk</li>
+                     <li>Number:<br> +375291714557</li>
+                     <li>E-mail:<br> TomieForever@gmail.com</li>
+                  </ul>
+                  <h3>Language:</h3>
+                  <p class="language-text" id="language">English: A2.<br>I'm studying english both with a teacher and on my own. I see fluent knowledge of english as an important professional feature, so I'm working regularly on improving this skill.</p>
+                  <nav class="nav-container-link">
+                     <ul>
+                        <li>
+                           <a href="https://t.me/TomieForever"><img src="./assets/svg/telegram.png" alt="Telegram"></a>
+                        </li>
+                        <li>
+                           <a href="viber://chat?number=+375291714557"><img src="./assets/svg/viber.png" alt="Viber"></a>
+                        </li>
+                        <li>
+                           <a href="https://join.skype.com/invite/Lt3apcFlXnK7"><img src="./assets/svg/skype.png" alt="Skype"></a>
+                        </li>
+                        <li>
+                           <a href="https://vk.com/id5532264"><img src="./assets/svg/vk.png" alt="Vk"></a>
+                        </li>
+                        <li>
+                           <a href="https://www.youtube.com/watch?v=ZnZ8mtLji64"><img src="./assets/svg/youtube.png" alt="Youtube"></a>
+                        </li>
+                     </ul>
+                  </nav>
+               </section>
+            </aside>
+            <main>
+               <div class="block information" id="information">
+                  <section>
+                     <div class="about-me-text" id="about-me">
+                        <h3>About me</h3>
+                        <p>My name is Olga. I'm 31.</p>
+                        <p>I took interest in programming about a year ago. I started my path with trying to learn C#, but soon switched to a more popular programming language - JavaScript. I used every source of information to gather knowledge: books, courses, documentation, articles, videos, etc. To be able to understand more I started taking english classes, and gradually with more and more practice, I realized that I want to be involved in this professional sphere.</p>
+                        <h4>I have a liberal arts education, but a set of my qualities could really be useful:</h4>
+                        <ol>
+                           <li>Goal commitment;</li>
+                           <li>Fast learning;</li>
+                           <li>Plumbing the depth of any issue;</li>
+                           <li>Diligence;</li>
+                           <li>Strong memory;</li>
+                           <li>Self-organization and time management skills;</li>
+                           <li>Ability to find required information using limited sources;</li>
+                           <li>Working under time limitations;</li>
+                           <li>Self-sufficiency. I can work and research on my own where it's necessary;</li>
+                        </ol>
+                        <h4 class="skills-list" id="skills">I have experience working with:</h4>
+                        ⠀
+                        <ul>
+                           <li>JS;</li>
+                           <li>C#;</li>
+                           <li>CSS;</li>
+                           <li>HTML;</li>
+                           <li>Git;</li>
+                        </ul>
+                     </div>
+                     <div class="wrap-video">
+                        <div class="container section video-section" id="video">
+                           <div class="video">
+                              <video id="video-player" src="./assets/video/cv.mp4" preload="metadata" poster="./assets/img/alt.jpg"></video>
+                              <button class="big_button_on" id="big_button" type="button"></button>
+                              <div id="controls" class="controls">
+                                 <button class="action_play" id="action" type="button"></button>
+                                 <div class="curr-time" id="curr-time">00:00</div>
+                                 <input type="range" value="0" min="0" max="100" step="1" class="progress-bar" id="progress-bar">
+                                 <div class="duration" id="duration">00:00</div>
+                                 <button  id="mute" class="mute_false" type="button"></button>
+                                 <input  type="range" value="0" min="0" max="100" step="1" class="volume" id="volume">
+                                 <select title="speed" class="speed" id="speed">
+                                    <option value="25">x0.25</option>
+                                    <option value="50">x0.50</option>
+                                    <option value="75">x0.75</option>
+                                    <option value="100" selected>x1.00</option>
+                                    <option value="125">x1.25</option>
+                                    <option value="150">x1.50</option>
+                                    <option value="175">x1.75</option>
+                                    <option value="200">x2.00</option>
+                                 </select>
+                                 <button id="fullscreen" class="fullscreen_false" type="button"></button>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </section>
+                  <section>
+                     <div class="education-list" id="education">
+                        <h3>Education</h3>
+                        <p>Humanities (Faculty of History)</p>
+                        <h4>Courses</h4>
+                        <ul>
+                           <li>'C Sharp Basics' (Stepik);</li>
+                           <li>'JS for Beginners' (Stepik);</li>
+                           <li>'JavaScript: Introduction and Functions' (Coursera);</li>
+                           <li>'Introduction to JavaScript' (Codacademy);</li>
+                        </ul>
+                     </div>
+                  </section>
+                  <section>
+                     <div class="experience-text" id="experience">
+                        <h3>Experience</h3>
+                        <p>I don't have any commercial experience in programming, but I've had other jobs that allowed me to acquire and improve various hard and soft skills, like communication with people, task management, etc. </p>
+                     </div>
+                  </section>
+                  <section>
+                     <div class="code" id="code">
+                        <h3>Code Examples</h3>
+                        <h4>Task</h4>
+                        <p>Your task is to make a function that can take any non-negative integer as an argument and return it with its digits in descending order. Essentially, rearrange the digits to create the highest possible number.</p>
+                        <pre><code class="html">
+         function descendingOrder(n){<br>
+         let myString=n.toString();<br>
+         let myArray=[];<br>
+         myArray = myString.split('');<br>
+         myArray.sort();<br>
+         myArray.reverse();<br>
+         myString=myArray.join('')<br>
+         return parseInt(myString);<br>
+         }
+         </code></pre>
+                     </div>
+                  </section>
+                  <section>
+                     <div id="my-projects">
+                        <h3>My projects</h3>
+                        <div  class="link-projects">
+                           <a href="https://renirengi.github.io/Museum/museum/"><img src="./assets/img/Museum.jpg" alt="museum"></a>              
+                           <h4>Museum</h4>
+                           <p>The project is a fixed layout of the Louvre Museum website. The layout is created in HTML, styled with CSS. There are two navigation bars, smooth scrolling by anchors. Check-boxes, radio-buttons, animation of individual elements were used, a custom video player was drawn.</p>
+                        </div>
+                        <div  class="link-projects">
+                           <a href="https://rolling-scopes-school.github.io/renirengi-JSFEPRESCHOOL/vertical-slider/"><img src="./assets/img/VerticalSlider.jpg" alt="slider"></a>
+                           <h4>Vertical slider</h4>
+                           <p>The project is a vertical multidirectional endless slider. The layout is created on HTML, styled using CSS, the slider is launched using JS. Scrolling the slider is carried out not only with the buttons, but also with the PC mouse wheel.</p>
+                        </div>
+                        <div  class="link-projects">
+                           <a href="https://rolling-scopes-school.github.io/renirengi-JSFEPRESCHOOL/custom-video-player/"><img src="./assets/img/CustomVideoplayer.jpg" alt="Player"></a>
+                           <h4>Custom video player</h4>
+                           <p>The project is a custom video player. The layout is based on HTML, styles are created using CSS, the slider is launched using JS (working with Dom-elements). The player can be controlled using hot keys: "Space" key - pause,  "m" key (English) - disable / enable sound, key "f" - enable / disable full-screen mode. Added player control from the keyboard:
+                              "k" -pause or continue playback, "j"- rewind the video 10s backward and forward, respectively, "l" - rewind the video 10s forward, "0..9" - go to a certain point in the video, "." - jump to the next frame when playback is paused, "b" - jump to the next frame when playback is paused. The keyboard shortcuts work the same way as on YouTube. The keys work in two layouts: Russian and English.
+                           </p>
+                        </div>
+                  </div>
+                    </section>  
+               </div>
+              
+            </main>
+         </div>
+         <footer>
+            <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="Logo"></a>
+            <a href="https://github.com/ReniRengi/rsschool-cv"><img src="./assets/svg/github.png" alt="logo"></a>
+            <p>2021</p>
+         </footer>
+      </div >
+      <script src="app.js"></script>
+   </body>
+</html>
