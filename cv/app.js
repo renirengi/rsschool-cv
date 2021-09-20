@@ -170,8 +170,7 @@ function main() {
     
 
     function keyboard(event) {
-        console.log(countClick)
-        countClick.push(event.key);
+            countClick.push(event.key);
             if (event.key === ' ') {
             videoAct();
             return;
